@@ -7,6 +7,16 @@
     border-radius: 10px;
 }
 
+.scd-pg-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    overflow: auto;
+    max-width: 1300px;
+
+}
+
 .bg{
     background-color: #F2EC54;
     background-image: url(../images/image-1.png);

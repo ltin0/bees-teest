@@ -1,0 +1,49 @@
+.card-container{
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+}
+
+.card-container p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3F3F46;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.itens-card{
+    display: flex;
+}
+
+.btn-remove{
+    float: right;
+}
+
+.btn-remove button{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.itens-card span{
+    padding: 5px 5px;
+    background-color: #F2EC54;
+    margin: 20px 5px;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.itens-card svg{
+    font-size: 20px;
+    margin: 0 5px;
+}

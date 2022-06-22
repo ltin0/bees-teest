@@ -9,7 +9,7 @@ const HeaderCards = () => {
 
     const handleBack = () => {
   
-    history.goBack();
+    history.push('/');
    };
 
 
