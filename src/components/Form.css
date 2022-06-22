@@ -1,0 +1,45 @@
+.form{
+    text-align: center;
+    margin: 5px auto;
+}
+
+.form input[type=text]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D4D4D8;
+    border-radius: 5px;
+}
+
+.form input[type=submit]{
+    padding: 8px 16px;
+    border-radius: 4px;
+    flex-direction: row;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.checkbox-sect{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-sect input[type=checkbox]{
+    background: #FFFFFF;
+    border-radius: 4px;
+
+}
+
+.checkbox-sect p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 10px;
+    /* identical to box height, or 21px */
+    color: #000000;
+}

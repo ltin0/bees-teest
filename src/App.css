@@ -1,0 +1,17 @@
+.container{
+    max-width: 800px;
+    margin: 150px auto;
+    overflow: auto;
+    min-height: 300px;
+    padding: 20px 190px;
+    border-radius: 10px;
+}
+
+.bg{
+    background-color: #F2EC54;
+    background-image: url(../images/image-1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 100%;
+    padding: 60px 0;
+}
