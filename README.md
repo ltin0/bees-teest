@@ -19,7 +19,7 @@ On the second page, the cards are beign all loaded from the API.
 
 The app is fully responsive, and all the style pages are in "src/components/style"
 
-So anyway, the app is working, but, when the bugs are fixed i commit and send to this repository
+So anyway, the app is working, but, if you can give more time to do this, when the bugs are fixed i commit and send to this repository
 
 #I'am waiting for your feedback, thank you very much.
 
