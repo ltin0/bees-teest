@@ -8,7 +8,7 @@ You can run this on your local host using : npm start
 i already used the librays AXIOS, ROUTE, REACTICONS
 
 I have some issues with routes, that's not working properly, and i still haven't solve the bug.
-The issue is on the header of card sect, the back button changes the url, but not render the content.
+The issue is on the header of card sect, the back button changes the url, but not render the content, if you watch the url state, you can see it, and if press enter on the url, it works(think is the version of library i'm WORKING HARD on this to fix).
 And the username on header too, is going away with the submit act on first page.
 
 I'm really sorry for that, i'am already still working to fix this, but i'am sending now for not traspassing the deadline.
