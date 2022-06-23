@@ -1,0 +1,9 @@
+.text-header-wraper p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 15px;
+    line-height: 55px;
+/* identical to box height, or 21px */
+    color: #000000;
+}

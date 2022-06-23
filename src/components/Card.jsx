@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "./style/Card.css";
 
 import { CgSignal, CgPin, CgPhone, CgMathPlus, CgTrash } from "react-icons/cg";
 
@@ -15,7 +15,7 @@ const Card = ({ card,  handleCardDeletion }) => {
                     {card.city},{card.state} - {card.country}
                 </p>
                 <div className="itens-card">
-                    <span>
+                    <span >
                         <CgSignal className="svg-border" />
                         {card.brewery_type}
                     </span>

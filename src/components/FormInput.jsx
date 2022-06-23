@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./Form.css";
+import "./style/Form.css";
 const FormInput = ({ setNome }) => {
     const [formValues, updateFormValue] = useState({});
     const [message, setMessage] = useState('');

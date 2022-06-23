@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./HeaderCards.css";
+import "./style/HeaderCards.css";
 import { CgArrowLeftO } from "react-icons/cg";
 import { useHistory } from "react-router-dom";
 
