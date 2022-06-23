@@ -25,3 +25,29 @@
     width: 100%;
     padding: 60px 0;
 }
+
+@media screen and (max-width: 2560px) {
+
+    .bg{
+        padding: 177px 0;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .bg{
+        padding: 125px 0;
+    }
+}
+
+@media screen and (max-width: 43em) {
+    .container{
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        padding: 20px 30px;
+    }
+}
