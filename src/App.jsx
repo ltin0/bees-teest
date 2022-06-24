@@ -14,7 +14,7 @@ const App = () => {
     const [nome, setNome] = useState([]);
 
     useEffect(() => {
-        window.localStorage.getItem("save-id", JSON.stringify(nome));
+        window.localStorage.setItem("save-id", JSON.stringify(nome));
     }, []);
 
     useEffect(() => {
@@ -36,22 +36,18 @@ const App = () => {
     };
 
     return (
-
         <Router>
- 	        <Route
-				path="/"
-				exact
-				render={() => (
+            <Route
+                path="/"
+                exact
+                render={() => (
                     <>
-                                          
-
                         <div className="bg">
                             <div className="container">
                                 <TextHeadMain />
                                 <FormInput setNome={setNome} />
                             </div>
                         </div>
-
                     </>
                 )}
             ></Route>

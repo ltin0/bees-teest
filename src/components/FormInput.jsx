@@ -1,21 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
+import { useDispatch } from 'react-redux';
 
 import "./style/Form.css";
-const FormInput = ({ setNome }) => {
-    const [formValues, updateFormValue] = useState({});
-    const [message, setMessage] = useState('');
+import { changeUser } from "../redux/slice";
+const FormInput = () => {
+    const [message, setMessage] = useState("");
+    const [nome, setNome] = useState('');
+
+    const dispatch = useDispatch();
+
+    const handleLogin = () => {
+        dispatch(changeUser(nome))
+      }
 
     //submit funct
-    const handleChange = event => {
-        const result = event.target.value.replace(/[^a-z ]/gi, '');
-    
+    const handleChange = (event) => {
+        const result = event.target.value.replace(/[^a-z ]/gi, "");
+
         setMessage(result);
-      };
-    
+    };
+
     const routerHistory = useHistory();
 
-    const handleSubmit = (e) => {
+    const handleSubmit = () => {
         // 👇️ redirect to /cards
         routerHistory.push("/cards");
     };
@@ -47,6 +55,7 @@ const FormInput = ({ setNome }) => {
                     </div>
                     <input
                         type="submit"
+                        onClick={handleLogin}
                         style={{
                             backgroundColor: isActive ? "#5D5FEF" : "#52525B",
                             color: isActive ? "white" : "",

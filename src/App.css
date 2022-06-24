@@ -27,16 +27,14 @@
 }
 
 @media screen and (max-width: 2560px) {
-
     .bg{
         padding: 177px 0;
     }
-
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1700px) {
     .bg{
-        padding: 125px 0;
+        padding: 60px 0;
     }
 }
 

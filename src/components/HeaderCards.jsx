@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
 import "./style/HeaderCards.css";
 import { CgArrowLeftO } from "react-icons/cg";
+import { useSelector } from 'react-redux';
 import { useHistory } from "react-router-dom";
+import { selectUser } from "../redux/slice";
 
-const HeaderCards = ({ nome }) => {
-    useEffect(() => {
-        window.localStorage.getItem("save-d", JSON.stringify(nome));
-    }, []);
-
+const HeaderCards = () => {
+    
+    const {nome} = useSelector(selectUser)
+        
     const routerHistory = useHistory();
 	const handleBackButtonClick = (e) => {
 		routerHistory.push("/");
